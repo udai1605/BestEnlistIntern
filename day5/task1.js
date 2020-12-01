@@ -1,8 +1,8 @@
-function Str(name) {
-    this.name = 'hello'
-}
-this.bespacify() = function () {
-    var string = this.name.split('').join(' ');
+str = 'hello'
+
+String.prototype.bespacify = function () {
+    str2 = str.split('').join(' ')
+    console.log(str2)
 }
 
-Str('hello').bespacify()
+str.bespacify()
